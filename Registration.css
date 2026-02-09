@@ -1,0 +1,22 @@
+.reg-form {
+  width: 300px;
+  margin: 50px auto; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: sans-serif;
+  input[type="submit"] {
+    background-color: #28a745; /* Green */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"] {
+    background-color: #dc3545; /* Red */
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+} 
